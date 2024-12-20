@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace DAPPERR.Entities;
 
-public partial class Student
+public partial class Teacher
 {
-    public int StudentId { get; set; }
+    public int TeacherId { get; set; }
 
-    public string Name { get; set; } = null!;
+    public string NameTeacher { get; set; } = null!;
 
     public int? Age { get; set; }
 
